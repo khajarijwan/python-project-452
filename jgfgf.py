@@ -52,7 +52,7 @@ def forOddNumber(n):
             print('%2d ' % (mgsqr[i][j]), end='')
         print()
 print("\nWELCOME:)\n")
-n = int(input("Please Enter Number of Rows and Column (n*n): "))
+n = int(input("Please enter Number of Rows and Column (n*n): "))
 if n%2==0:
     forEvenNumber(n)
 else:
